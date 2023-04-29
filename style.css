@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+banner > button {
+    background-color: cyan;
+    font-family: roboto;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+banner > button:hover {
+    scale: 1.2;
+    background-color: #FFFFFF00;
+    color: white;
+    border: 1px solid cyan;
+    transition-duration: .2s;
+}
+
+grid_container {
+    height: 600px;
+    width: 600px;
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+}
+
+row {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+unit {
+    border: 1px solid red;
+    flex-grow: 1;
+}
+
